@@ -1,0 +1,7 @@
+export PYTHONPATH=/1/chain:$PYTHONPATH
+$export PYTHONPATH=/1/chain:$PYTHONPATH
+
+cd /root/1/chain
+python chain/scripts/park/park_gd.py
+
+nohup python main.py &> main.log &
